@@ -28,7 +28,6 @@ import static net.minecraft.server.commands.data.DataCommands.getSingleTag;
 @Mixin(DataCommands.class)
 public class DataCommandMixin {
     private static void exportStr(String str, MinecraftServer server){
-        System.out.println(str);
         if (server.getGameRules().getBoolean(DataExporter.RULE_EXPORT_TO_CLIPBOARD)) {
             DataExporter.LOGGER.debug("Exporting to clipboard");
             try {
