@@ -1,0 +1,4 @@
+{
+  "gamerule.exportToClipboard": "Export the /data command output to the clipboard",
+  "gamerule.exportToFile": "Export the /data command output to a txt file"
+}

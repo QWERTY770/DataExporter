@@ -1,0 +1,4 @@
+{
+  "gamerule.exportToClipboard": "将/data命令输出导出到剪切板",
+  "gamerule.exportToFile": "将/data命令输出导出到txt文件"
+}
