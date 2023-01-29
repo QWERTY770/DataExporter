@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven {
+            name = 'Aliyun Mirror'
+            url  = 'https://maven.aliyun.com/repository/public'
+        }
+        maven {
+            url = 'https://lss233.littleservice.cn/repositories/minecraft'
+            name = 'Lss233'
+        }
+        maven { url = 'https://maven.minecraftforge.net/' }
+    }
+}
